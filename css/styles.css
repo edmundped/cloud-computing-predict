@@ -438,6 +438,10 @@ mark,
   background-color: #fcf8e3;
 }
 
+.profilePic {
+  border-radius: 50%;
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
