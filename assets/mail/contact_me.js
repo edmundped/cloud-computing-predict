@@ -26,7 +26,7 @@ $(function () {
                 // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  -------- 
                 url: "{https://nkbjpuekq8.execute-api.eu-west-1.amazonaws.com/Stage/predict-function}",
                 // ------------------------------------------------------  
-                type: "POST",
+                type: "ANY",
                 data: JSON.stringify(json),
                 cache: false,
                 success: function () {
