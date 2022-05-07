@@ -269,7 +269,7 @@ def lambda_handler(event, context):
 
  
     SENDER = 'edmundped@gmail.com'
-    RECIPIENT = 'edsa.predicts@explore-ai.net' 
+    RECIPIENT = 'edmundped@gmail.com' 
   
 
 
@@ -340,4 +340,4 @@ def lambda_handler(event, context):
     }
     # -----------------------------
     
-    return lambda_response
+    return lambda_response   
