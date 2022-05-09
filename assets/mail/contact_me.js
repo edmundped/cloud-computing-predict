@@ -27,6 +27,10 @@ $(function () {
                 url: "https://uvht294zoi.execute-api.eu-west-1.amazonaws.com/default/predict-function",
                 // ------------------------------------------------------  
                 type: "POST",
+                headers: {
+                    "Access-Control-Allow-Origin" : "*", // Required for CORS support to work
+                    "Access-Control-Allow-Credentials" : true // Required for cookies, authorization headers with HTTPS
+                },
                 data: JSON.stringify(json),
                 cache: false,
                 success: function () {
