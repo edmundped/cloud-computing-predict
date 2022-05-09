@@ -29,7 +29,7 @@ $(function () {
                 type: "POST",
                 headers: {
                     "Access-Control-Allow-Origin" : "*", // Required for CORS support to work
-                    "Access-Control-Allow-Credentials" : true // Required for cookies, authorization headers with HTTPS
+                    "Access-Control-Allow-Credentials" : false // Required for cookies, authorization headers with HTTPS
                 },
                 data: JSON.stringify(json),
                 cache: false,
