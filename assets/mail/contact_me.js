@@ -30,6 +30,8 @@ $(function () {
                 headers: {
                     "Access-Control-Allow-Origin" : "*", // Required for CORS support to work
                     "Access-Control-Allow-Credentials" : false // Required for cookies, authorization headers with HTTPS
+                    "Access-Control-Allow-Headers": "Content-Type",
+                    "Access-Control-Allow-Methods": "OPTIONS,POST,GET"
                 },
                 data: JSON.stringify(json),
                 cache: false,
